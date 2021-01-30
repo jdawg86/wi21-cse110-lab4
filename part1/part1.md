@@ -23,11 +23,11 @@ Variables & Scoping
 
 Data Types
 13. Notations
-    A. student.name
-    B. student['Grad Year]
-    C. student.greeting
-    D. student['Favorite Teacher']
-    E. student.courseLoad[0]
+    - A. student.name
+    - B. student['Grad Year]
+    - C. student.greeting
+    - D. student['Favorite Teacher']
+    - E. student.courseLoad[0]
 
 Basic Operators & Type Conversion
 14. Arithmetic
