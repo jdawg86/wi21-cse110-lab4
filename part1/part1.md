@@ -22,40 +22,40 @@ Variables & Scoping
 12. We get a type error for trying to assign a constant variable in line 7 and the program shuts down with an error.
 
 Data Types
-13. Notations
-    * A. student.name
-    * B. student['Grad Year]
-    * C. student.greeting
-    * D. student['Favorite Teacher']
-    * E. student.courseLoad[0]
+13. Notations <br>
+    A. student.name <br>
+    B. student['Grad Year] <br>
+    C. student.greeting <br>
+    D. student['Favorite Teacher'] <br>
+    E. student.courseLoad[0]
 
 Basic Operators & Type Conversion
-14. Arithmetic
-    A. '3' + 2
-        Output: 32
-        Reason: '3' is treated as an ascii value so the ascii value of '3' was added to 2
-    B. ‘3’ - 2
-        Output: 30
-        Reason: the character '3' is converted literally to integer 3 and 2 is subtracted
-    C. 3 + null
-        Output: 3
-        Reason: null becomes 0
-    D. ‘3’ + null
-        Output: 3null
-        Reason: 3 and null were converted to string and concatenated together
-    E. true + 3
-        Output: 4
-        Reason: true is converted to its boolean value, 1 and added as an integer to 3
+14. Arithmetic <br>
+    A. `'3' + 2` <br>
+        Output: 32 <br>
+        Reason: '3' is treated as an ascii value so the ascii value of '3' was added to 2 <br>
+    B. `‘3’ - 2` <br>
+        Output: 30 <br>
+        Reason: the character '3' is converted literally to integer 3 and 2 is subtracted <br>
+    C. `3 + null` <br>
+        Output: 3 <br>
+        Reason: null becomes 0 <br>
+    D. `‘3’ + null` <br>
+        Output: 3null <br>
+        Reason: 3 and null were converted to string and concatenated together <br>
+    E. `true + 3` <br>
+        Output: 4 <br>
+        Reason: true is converted to its boolean value, 1 and added as an integer to 3 <br>
 
-    F. false + null
-        Output: 4
-        Reason: true is converted to its boolean value, 0 and added as an integer to 3
-    G. “3” + undefined
-        Output: 3undefined
-        Reason: 3 and null were converted to string and concatenated together
-    H. “3” - undefined
-        Output: NaN
-        Reason: Javascript got an error trying to read the code
+    F. `false + null` <br>
+        Output: 4 <br>
+        Reason: true is converted to its boolean value, 0 and added as an integer to 3 <br>
+    G. `“3” + undefined` <br>
+        Output: 3undefined <br>
+        Reason: 3 and null were converted to string and concatenated together <br>
+    H. `“3” - undefined` <br>
+        Output: NaN <br>
+        Reason: Javascript got an error trying to read the code <br>
 
 15. Comparison
     A. ‘2’ > 1
