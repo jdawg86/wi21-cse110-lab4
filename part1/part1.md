@@ -7,7 +7,7 @@
     150<br>
     150<br>
 
-    Since the prices array has 3 items, length is 3. discountedPrice totals out to be 150 even from the loop and finalPrice is just 150 rounded which is the same 150.<br>
+    <p>Since the prices array has 3 items, length is 3. discountedPrice totals out to be 150 even from the loop and finalPrice is just 150 rounded which is the same 150.</p>
 
 
 5. At line 11 we get a reference error since let has its scope inside the for loop unlike var so outside the loop, i doesn't exist.
