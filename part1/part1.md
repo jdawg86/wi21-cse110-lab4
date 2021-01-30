@@ -1,4 +1,4 @@
-Variables & Scoping <br>
+<h3>Variables & Scoping</h3>
 1. variable i is initially set to 0 so it will print '0'.
 2. The variable discountedPrice will print the results of the for loop
 3. prices.length is basically the discountedPrice rounded with the Math.round function and will print the result of that.
@@ -21,7 +21,7 @@ Variables & Scoping <br>
 11. We don't reach line 11 in the first place because of the constant assignment type error in line 7. But if this were the only problem, we would get the same error on    the second loop for trying to reassign the constant discountedPrice variable. 
 12. We get a type error for trying to assign a constant variable in line 7 and the program shuts down with an error.
 
-Data Types <br>
+<h3>Data Types</h3>
 13. Notations <br>
     A. student.name <br>
     B. student['Grad Year] <br>
@@ -29,7 +29,7 @@ Data Types <br>
     D. student['Favorite Teacher'] <br>
     E. student.courseLoad[0]
 
-Basic Operators & Type Conversion <br>
+<h3>Basic Operators & Type Conversion</h3>
 14. Arithmetic <br>
     A. `'3' + 2` <br>
         Output: 32 <br>
@@ -81,10 +81,10 @@ Basic Operators & Type Conversion <br>
 17. Output: How are you?
     Reason: The first statement is false but the second if statement returns true. The last statement doesn't print as it's an else statement.
 
-Loops <br>
+<h3>Loops</h3>
 18. See file: part1-question18
 
-Functions <br>
+<h3>Functions</h3>
 19. 
 The function will first go into modeifyArray and then in the for loop and will call back to doSomething and the cycle repeats 3 times for i. Despite the return the function will continue to loop due to callback
 
