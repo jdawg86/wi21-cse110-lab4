@@ -1,4 +1,4 @@
-<h1> Watches and breakpoints </h1>
+<h6> Watches and breakpoints </h6>
 ![screenshot] (s1.png)
 
 <h6> What was the bug? </h6>
