@@ -3,11 +3,11 @@ Variables & Scoping
 2. The variable discountedPrice will print the results of the for loop
 3. prices.length is basically the discountedPrice rounded with the Math.round function and will print the result of that.
 4. when we input discountPrices([100, 200, 300], .5) we get
-    3\n
-    150\n
-    150\n
+    3<br>
+    150<br>
+    150<br>
 
-    Since the prices array has 3 items, length is 3. discountedPrice totals out to be 150 even from the loop and finalPrice is just 150 rounded which is the same 150.\n
+    Since the prices array has 3 items, length is 3. discountedPrice totals out to be 150 even from the loop and finalPrice is just 150 rounded which is the same 150.<br>
 
 
 5. At line 11 we get a reference error since let has its scope inside the for loop unlike var so outside the loop, i doesn't exist.
