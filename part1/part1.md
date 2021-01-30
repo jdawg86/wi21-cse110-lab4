@@ -46,7 +46,6 @@ Basic Operators & Type Conversion
     E. `true + 3` <br>
         Output: 4 <br>
         Reason: true is converted to its boolean value, 1 and added as an integer to 3 <br>
-
     F. `false + null` <br>
         Output: 4 <br>
         Reason: true is converted to its boolean value, 0 and added as an integer to 3 <br>
@@ -58,24 +57,24 @@ Basic Operators & Type Conversion
         Reason: Javascript got an error trying to read the code <br>
 
 15. Comparison
-    A. ‘2’ > 1
-        Output: true
-        Reason: 2 was converted from char to int
-    B. ‘2’ < ‘12’
-        Output: true
-        Reason: Even in character form, 12 > 2
-    C. 2 == ‘2’
-        Output: true
-        Reason: '2' is converted to an int
-    D. 2 === ‘2’
-        Output: false
-        Reason: Not the same type
-    E. true == 2
-        Output: false
-        Reason: true is converted to 1 to compare with 2
-    F. true === Boolean(2)
-        Output: true
-        Reason: output of Boolean(2) is 1, which true also is.
+    A. `‘2’ > 1` <br>
+        Output: true <br>
+        Reason: 2 was converted from char to int <br>
+    B. `‘2’ < ‘12’` <br>
+        Output: true <br>
+        Reason: Even in character form, 12 > 2 <br>
+    C. `2 == ‘2’` <br>
+        Output: true <br>
+        Reason: '2' is converted to an int <br>
+    D. `2 === ‘2’` <br>
+        Output: false <br>
+        Reason: Not the same type <br>
+    E. `true == 2` <br>
+        Output: false <br>
+        Reason: true is converted to 1 to compare with 2 <br>
+    F. `true === Boolean(2)` <br>
+        Output: true <br>
+        Reason: output of Boolean(2) is 1, which true also is. <br>
 
 16. == simply checks if the values of 2 terms are the same while === checks for type as well as value.
 
