@@ -1,4 +1,4 @@
-Variables & Scoping
+Variables & Scoping <br>
 1. variable i is initially set to 0 so it will print '0'.
 2. The variable discountedPrice will print the results of the for loop
 3. prices.length is basically the discountedPrice rounded with the Math.round function and will print the result of that.
@@ -21,7 +21,7 @@ Variables & Scoping
 11. We don't reach line 11 in the first place because of the constant assignment type error in line 7. But if this were the only problem, we would get the same error on    the second loop for trying to reassign the constant discountedPrice variable. 
 12. We get a type error for trying to assign a constant variable in line 7 and the program shuts down with an error.
 
-Data Types
+Data Types <br>
 13. Notations <br>
     A. student.name <br>
     B. student['Grad Year] <br>
@@ -29,7 +29,7 @@ Data Types
     D. student['Favorite Teacher'] <br>
     E. student.courseLoad[0]
 
-Basic Operators & Type Conversion
+Basic Operators & Type Conversion <br>
 14. Arithmetic <br>
     A. `'3' + 2` <br>
         Output: 32 <br>
@@ -56,7 +56,7 @@ Basic Operators & Type Conversion
         Output: NaN <br>
         Reason: Javascript got an error trying to read the code <br>
 
-15. Comparison
+15. Comparison <br>
     A. `‘2’ > 1` <br>
         Output: true <br>
         Reason: 2 was converted from char to int <br>
@@ -81,16 +81,16 @@ Basic Operators & Type Conversion
 17. Output: How are you?
     Reason: The first statement is false but the second if statement returns true. The last statement doesn't print as it's an else statement.
 
-Loops
+Loops <br>
 18. See file: part1-question18
 
-Functions
+Functions <br>
 19. 
 The function will first go into modeifyArray and then in the for loop and will call back to doSomething and the cycle repeats 3 times for i. Despite the return the function will continue to loop due to callback
 
 20.  See file: part1-question20
 
 21. Output:
-    4
-    3
-    2
+    4 <br>
+    3 <br>
+    2 <br>
