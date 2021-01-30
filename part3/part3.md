@@ -1,5 +1,7 @@
-<h6> Watches and breakpoints </h6>
-![img1](s1.png)
+<h5> Watches and breakpoints </h5>
+
+![screenshot](s1.png)
+
 
 <h6> What was the bug? </h6>
 The bug was the num1 and num2 variables were being read as strings, not integers <br>
