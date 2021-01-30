@@ -2,12 +2,12 @@
 1. variable i is initially set to 0 so it will print '0'. <br>
 2. The variable discountedPrice will print the results of the for loop <br>
 3. prices.length is basically the discountedPrice rounded with the Math.round function and will print the result of that. <br>
-4. when we input discountPrices([100, 200, 300], .5) we get: <br>
+4. Since the prices array has 3 items, length is 3. discountedPrice totals out to be 150 even from the loop and finalPrice is just 150 rounded which is the same 150.
+When we input discountPrices([100, 200, 300], .5) we get: <br>
     3<br>
     150<br>
     150<br>
-Since the prices array has 3 items, length is 3. discountedPrice totals out to be 150 even from the loop and finalPrice is just 150 rounded which is the same 150.<br>
-
+    
 5. At line 11 we get a reference error since let has its scope inside the for loop unlike var so outside the loop, i doesn't exist.
 6. At line 12 we get a reference error since let has its scope inside the for loop unlike var so outside the loop, discountedPrices doesn't exist. We never reach this point anyways
 7. We will never reach line 7 since we get a fatal error in line 11 and either way because of the error at line 12, line 13 is dependent on the result from line 12 so it would not go through regardless.
