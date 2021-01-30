@@ -2,7 +2,7 @@ Variables & Scoping
 1. variable i is initially set to 0 so it will print '0'.
 2. The variable discountedPrice will print the results of the for loop
 3. prices.length is basically the discountedPrice rounded with the Math.round function and will print the result of that.
-4. when we input discountPrices([100, 200, 300], .5) we get
+4. when we input discountPrices([100, 200, 300], .5) we get: <br>
     3<br>
     150<br>
     150<br>
@@ -23,11 +23,11 @@ Variables & Scoping
 
 Data Types
 13. Notations
-    - A. student.name
-    - B. student['Grad Year]
-    - C. student.greeting
-    - D. student['Favorite Teacher']
-    - E. student.courseLoad[0]
+    * A. student.name
+    * B. student['Grad Year]
+    * C. student.greeting
+    * D. student['Favorite Teacher']
+    * E. student.courseLoad[0]
 
 Basic Operators & Type Conversion
 14. Arithmetic
