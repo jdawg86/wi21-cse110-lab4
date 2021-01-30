@@ -33,3 +33,6 @@ Tue, 26 Jan 2021 22:14:13 GMT
 
 <h6> What was the Content-Type of the file? </h6>
 application/json
+
+<h6> Which method inside the initiating file made the request? </h6>
+fetchData
